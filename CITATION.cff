@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+title: sensible
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Bahex
+repository-code: 'https://github.com/Bahex/sensible'
+abstract: >-
+  A sensible alternative to common C patterns and
+  conventions.
+license: MIT
+date-released: '2024-12-04'
