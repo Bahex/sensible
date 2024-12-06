@@ -13,7 +13,7 @@ static Result_strbuf read_file(char const *filename) {
 	}
 
 	fseek(fp, 0, SEEK_END);
-	usize const length = ftell(fp);
+	usize const length = (usize)ftell(fp);
 	fseek(fp, 0, SEEK_SET);
 
 	strbuf buffer = strbuf_with_capacity(length);
